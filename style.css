@@ -1,0 +1,82 @@
+
+body {                                              /*mengatur background tampilan*/
+    background-image:url(assets/2150042473.jpg);    /*background dengan gambar*/
+    background-size: 100%;
+    background-repeat:repeat;
+}
+
+h2{                             /*mengatur bagain judul diluar tabel*/
+    font-family:Goudy Stout;
+    font-style:oblique;
+    color: whitesmoke;
+    list-style-position:inside;
+    font-size: 30px;
+}
+
+
+
+table {                             /*mengatur tabel utama (bagian 1-8)*/
+    width: 80%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: #000001;
+    box-shadow: 0 0 17px rgba(83, 73, 12, 0.985);           /*mengatur bayangan dari tabel*/
+    border-radius: 10px;
+    font-family:Chiller;                /*mengatur jenis fontnya*/
+    color:#F5F5F5
+
+    
+}
+
+/* Tampilan garis tabel */
+table th, table td {
+    border: 2px solid #7d701d; /* Garis dengan warna putih */
+    padding: 10px; /* Padding untuk sel */
+}
+
+/* Efek hilang garis saat dihover */
+table:hover th, table:hover td {
+    border-color: transparent; /* Menghilangkan warna garis saat dihover */
+}
+
+th,td {                     /*mengatur kalimat pada tabel pertama*/
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+th {                                /*mengatur tabel kedua*/
+    background-color: #49443b;
+    color: #fefff9;
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+    font-family:MingLiu_HKSCS-ExtB ;
+}
+
+thead {                                 /*mengatur tabel paling atas (pertama)*/
+    background-color: #bbaf99;
+    color: #2e4801;
+    font-family:Broadway;
+}
+
+tbody tr:hover {                        /*mengatur warna ketika kursor dtempatkan disalah satu tabel*/
+    background-color: #534309;
+    font-family: 'Times New Roman', Times, serif;
+    color:#53e60a
+}
+
+/*mengatur gambar didalam tabel*/
+img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 30%;                              /* Membuat gambar dengan batas tepi bulat */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);        /* Menambahkan bayangan halus pada gambar */
+    transition: transform 0.3s ease-in-out;             /* Animasi perubahan skala */
+}
+
+/* Efek hover */
+img:hover {
+    transform: scale(1.1);      /* Membesarkan gambar saat dihover */
+}
